@@ -1,0 +1,159 @@
+.header-color {
+  color: #3b5998;
+}
+
+.landing-grid {
+  color: #f7f7f7;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  height: 300px;
+  width: 55%;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  margin-top: 170px;
+}
+
+.background-img {
+  background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  margin: auto;
+}
+
+.banner-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 30px;
+  padding: 1em;
+}
+
+.social-link {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-link a {
+  color: white;
+  font-size: 3.5em;
+  padding: 8px;
+}
+
+.projects-grid-1 {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.projects-grid-2 {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.contact-body {
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-body h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 40px; 
+}
+
+.contact-body h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 30px; 
+}
+
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  font-size: 18px; 
+}
+
+.contact-body hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-list i {
+  font-size: 50px;
+  padding-right: 5rem;
+}
+
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #eeeff4;
+  opacity: 0.8;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin: 10px;
+  margin-left: 30px;
+}
