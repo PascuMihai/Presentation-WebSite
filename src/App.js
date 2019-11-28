@@ -12,7 +12,6 @@ function App() {
           title={<Link style={{textDecoration: 'none', color: 'white'}} 
           to="/">Home</Link>}scroll>
           <Navigation className='navigation-links'>
-            <Link to="/CV">CV</Link>
             <Link to="/Projects">Projects</Link>
             <Link to="/Contact">Contact</Link>
           </Navigation>
@@ -20,7 +19,6 @@ function App() {
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} 
         to="/">Home</Link>}>
           <Navigation>
-            <Link to="/CV">CV</Link>
             <Link to="/Projects">Projects</Link>
             <Link to="/Contact">Contact</Link>
           </Navigation>

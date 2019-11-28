@@ -15,7 +15,10 @@ export class LandingPage extends Component {
 
                 <p>HTML 5 - CSS 3 - Java Script - React.js</p>
                 <div className="social-link">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
+                  <a 
+                  href="https://www.linkedin.com/in/pascu-ioan-mihai-914aa9192/" 
+                  target="_blank" 
+                  rel="noopener noreferrer">
                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                   </a>
 

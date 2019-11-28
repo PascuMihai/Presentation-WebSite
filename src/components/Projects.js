@@ -23,30 +23,37 @@ export class Projects extends Component {
   }
 
   toggleCategories = () => {
-    // ------- First Category -------- 
+    // ------- First Category --------
     if (this.state.activeTab === 0) {
       return (
         <div>
-          <Card shadow={5} style={{ margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
+                color: "#000",
                 height: "150px",
+                padding: "2px",
+                paddingLeft: "10px",
                 background:
-                  "url(https://reactjs.org/logo-og.png) center / cover"
+                  "url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a98b0144-0003-4b13-98ce-e6d3eae7ea9c/d4x4y4f-b68cd563-600b-4bc0-bcf7-2931c4568c22.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E5OGIwMTQ0LTAwMDMtNGIxMy05OGNlLWU2ZDNlYWU3ZWE5Y1wvZDR4NHk0Zi1iNjhjZDU2My02MDBiLTRiYzAtYmNmNy0yOTMxYzQ1NjhjMjIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xQMIfmZp_cs2-I2e7AT27F3uMzSJx2phNYxcA18YcUA) center / cover"
               }}
             >
-              HTML/CSS
+              Traveling Website
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              esse ut inventore! Fuga suscipit dolore perferendis iure, ipsa
-              perspiciatis.
+              This was my first project, made only with HTML and CSS.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions
+              style={{ display: "flex", justifyContent: "center" }}
+              border
+            >
+              <Button
+                href="https://github.com/PascuMihai/Simple-website-HTML-CSS"
+                colored
+                target="_blank"
+              >
+                GitHub
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -55,7 +62,7 @@ export class Projects extends Component {
         </div>
       );
 
-      // ------- Second Category -------- 
+      // ------- Second Category --------
     } else if (this.state.activeTab === 1) {
       return (
         <div className="projects-grid-2">
@@ -63,20 +70,28 @@ export class Projects extends Component {
             <CardTitle
               style={{
                 height: "150px",
+                paddingLeft: "10px",
+                padding: "2px",
                 background:
-                  "url(https://gocode.academy/wp-content/uploads/2018/06/javascript-logo.png) center / cover"
+                  "url(https://image.shutterstock.com/image-photo/image-260nw-1188713476.jpg) center / cover"
               }}
-            >              
+            >
+              Guessing Number Game
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              esse ut inventore! Fuga suscipit dolore perferendis iure, ipsa
-              perspiciatis.
+              I've made this with some help from Youtube. The ideea is to guess the number with 3 tries or it's game over.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions
+              style={{ display: "flex", justifyContent: "center" }}
+              border
+            >
+              <Button
+                href="https://github.com/PascuMihai/Number-guessing-game-JavaScript"
+                colored
+                target="_blank"
+              >
+                GitHub
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -87,20 +102,28 @@ export class Projects extends Component {
             <CardTitle
               style={{
                 height: "150px",
+                padding: "2px",
+                paddingLeft: "10px",
                 background:
-                  "url(https://gocode.academy/wp-content/uploads/2018/06/javascript-logo.png) center / cover"
+                  "url(https://image.shutterstock.com/image-photo/image-260nw-1188713476.jpg) center / cover"
               }}
             >
+              Book library
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              esse ut inventore! Fuga suscipit dolore perferendis iure, ipsa
-              perspiciatis.
+               Practiced some DOM manipulation and conditional rendering without using a JS framework, only java script.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions
+              style={{ display: "flex", justifyContent: "center" }}
+              border
+            >
+              <Button
+                href="https://github.com/PascuMihai/Book-library-JavaScript"
+                colored
+                target="_blank"
+              >
+                GitHub
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -111,29 +134,34 @@ export class Projects extends Component {
             <CardTitle
               style={{
                 height: "150px",
+                padding: "2px",
+                paddingLeft: "10px",
                 background:
-                  "url(https://gocode.academy/wp-content/uploads/2018/06/javascript-logo.png) center / cover"
+                  "url(https://image.shutterstock.com/image-photo/image-260nw-1188713476.jpg) center / cover"
               }}
             >
+              Tetris game
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              esse ut inventore! Fuga suscipit dolore perferendis iure, ipsa
-              perspiciatis.
+              I wanted to do a bigger project so with some help from tutorials I managed
+               to build a tetris game from scratch.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions
+              style={{ display: "flex", justifyContent: "center" }}
+              border
+              target="_blank"
+            >
+              <Button href="https://github.com/PascuMihai/Tetris-game" colored>
+                GitHub
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
             </CardMenu>
-          </Card>      
-  
+          </Card>
         </div>
       );
-              // ------- Third Category -------- 
+      // ------- Third Category --------
     } else if (this.state.activeTab === 2) {
       return (
         <div className="projects-grid-1">
@@ -141,22 +169,31 @@ export class Projects extends Component {
             <CardTitle
               style={{
                 color: "#fff",
+                padding: "2px",
+                paddingLeft: "10px",
                 height: "150px",
                 background:
                   "url(https://reactjs.org/logo-og.png) center / cover"
               }}
             >
-              React #1
+              Shopping Cart demo
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              esse ut inventore! Fuga suscipit dolore perferendis iure, ipsa
-              perspiciatis.
+              It's import to know how to work with props and state in React and also event 
+              handling, made this myself without any help. You can add, delete, reset,
+              increment or decrement.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions
+              style={{ display: "flex", justifyContent: "center" }}
+              border
+              target="_blank"
+            >
+              <Button
+                href="https://github.com/PascuMihai/Shopping-cart-app-React"
+                colored
+              >
+                GitHub
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -168,21 +205,30 @@ export class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "150px",
+                paddingLeft: "10px",
+                padding: "2px",
                 background:
                   "url(https://reactjs.org/logo-og.png) center / cover"
               }}
             >
-              React Projects #2
+              Todo list app
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              esse ut inventore! Fuga suscipit dolore perferendis iure, ipsa
-              perspiciatis.
+            A simple todo list app, where you can add a new todo, delete, and check it off.
+            Also made a conditional rendering where if you check a todo it will automatically
+            line through the todo.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions
+              style={{ display: "flex", justifyContent: "center" }}
+              border
+            >
+              <Button
+                href="https://github.com/PascuMihai/Todo-app-React"
+                colored
+                target="_blank"
+              >
+                GitHub
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />

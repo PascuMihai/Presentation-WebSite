@@ -13,30 +13,38 @@ export class Contact extends Component {
               alt="avatar"
               style={{ height: "250px" }}
             />
-            
           </Cell>
           <Cell col={6}>
-          <p style={{ width: "100%", margin: "auto", paddingTop: "1em", lineHeight: '2em' }}>
-          Hello, my name is Pascu Mihai and i'm a Personal trainer and a
-          photographer based in Cluj Napoca, future Full Stack Developer
-          specialized in the MERN stack, currently spending the bulk of my
-          time learning the Front-End technologies: HTML5, CSS3, Java Script
-          and React, slowly transition into Next.js framework for React, but
-          i'm allways excited to learn new technologies. I'm ambitious,
-          pssionate and motivated person, I can tell i'm a autdodidact
-          person who likes to focus on his personal growth and allways
-          improving his skills, I'm looking for a team that allows me to
-          perpetually get oustide my comfort zone,
-        </p>
+            <p
+              style={{
+                width: "100%",
+                margin: "auto",
+                paddingTop: "1em",
+                lineHeight: "2em",
+                textAlign: "left"
+              }}
+            >
+              Hello, my name is Pascu Mihai and I'm a Personal trainer and a
+              photographer based in Cluj Napoca, future Full Stack Web Developer
+              specialized in the MERN stack. Currently spending the bulk of my
+              time learning the Front-End technologies: HTML5, CSS3, Java Script
+              and React, slowly transition into Next.js framework for React, but
+              I'm always excited to learn new technologies. I'm ambitious,
+              passionate and motivated person, I can say I'm an autodidact
+              person who likes to focus on his personal growth and always
+              improving his skills. I'm looking for a team that allows me to
+              perpetually get outside my comfort zone, and focus on improving my
+              craft.
+            </p>
           </Cell>
           <Cell col={10}>
-          <h3>Contact Me</h3>
+            <h3>Contact Me</h3>
             <hr />
             <div className="contact-list">
               <List col={5}>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "20px", fontFamily: "Anton" }}
+                    style={{ fontSize: "20px", fontFamily: "times" }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     +31.611.400.396
@@ -51,8 +59,8 @@ export class Contact extends Component {
                     Str. Cardinal Iuliu Hossu, nr 85, Cluj
                   </ListItemContent>
                 </ListItem>
-                </List>
-                <List col={5}>
+              </List>
+              <List col={5}>
                 <ListItem>
                   <ListItemContent
                     style={{ fontSize: "20px", fontFamily: "Anton" }}
@@ -67,7 +75,7 @@ export class Contact extends Component {
                     style={{ fontSize: "20px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-skype" aria-hidden="true" />
-                    pascu.ioanmihai
+                    cooola93
                   </ListItemContent>
                 </ListItem>
               </List>
